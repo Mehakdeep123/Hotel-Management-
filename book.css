@@ -1,0 +1,106 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
+    color: #f9d342;
+    line-height: 100%;
+}
+
+img {
+    width: 275px;
+    height: 130px;
+    padding-top: -50px;
+}
+
+.booking_heading {
+    font-size: 50px;
+    padding-top: 0px;
+}
+
+hr {
+    background-color: #F9D342;
+    height: 10px;
+    width: 75%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 2px;
+}
+
+.book {
+    /* background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("C:\Users\MEHAKDEEP SINGH\Desktop\sudhanshu folder\images\7.jpg") center/cover no-repeat; */
+    color: #fff;
+    padding: 40px 60px;
+}
+
+.book-form {
+    display: grid;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-form input[type="submit"] {
+    margin: 18px 0 0 0;
+    background: var(--dark);
+    color: #fff;
+    border: 1px solid #fff;
+    border-color: white;
+}
+
+.book-form label,
+.book-form input {
+    width: 30%;
+}
+
+.book-form label {
+    font-weight: 600;
+    word-spacing: 5px;
+    padding-bottom: 8px;
+}
+
+.book-form input:not(.btn) {
+    margin: 4px 0 16px 0;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-size: 17px;
+    border: none;
+}
+
+.book-form input:focus {
+    outline: 0;
+
+}
+
+.submit {
+    width: 20%;
+    height: 50px;
+    border-color: white;
+
+}
+
+.submit:hover {
+    background-color: #B3FFAE;
+    color: white;
+}
+
+#value2 {
+    font-size: 20px;
+    color: #82CD47;
+}
+
+#value1 {
+    font-size: 20px;
+    color: #82CD47;
+}
+
+.between {
+    color: red;
+    font-size: 20px;
+}
+
+.move_forward{
+    color: #F9D342;
+    text-decoration: none;
+    padding-left: 300px;
+}

@@ -1,0 +1,95 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url("images/banner-img.jpg") center/cover no-repeat;
+    color: #f9d342;
+    line-height: 100%;
+}
+.heading{
+    font-size: 50px;;
+    color: #F9D342;
+}
+.name{
+    width: 30%;
+    height: 40px;
+    border: 2px solid #F9D342;
+    border-radius: 10px;
+    
+}
+.email{
+    width: 30%;
+    height: 40px;
+    border: 2px solid #F9D342;
+    border-radius: 10px;
+    
+}
+.phone{
+    width: 30%;
+    height: 40px;
+    border: 2px solid #F9D342;
+    border-radius: 10px;
+    
+}
+.username{
+    width: 30%;
+    height: 40px;
+    border: 2px solid #F9D342;
+    border-radius: 10px;
+    
+}
+.password{
+    width: 30%;
+    height: 40px;
+    border: 2px solid #F9D342;
+    border-radius: 10px;
+    
+}
+.con_pass{
+    width: 30%;
+    height: 40px;
+    border: 2px solid #F9D342;
+    border-radius: 10px;
+    
+} 
+.submit{
+    width: 10%;
+    height: 40px;
+    color: white;
+    background-color: green;
+}
+.submit:hover {
+    background-color: #B3FFAE; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+a{
+    color: #F9D342;
+    text-decoration: none;
+}
+.reset{
+    width: 10%;
+    height: 40px;
+    color: white;
+    background-color: red;
+}
+.reset:hover {
+    background-color: #E97777; 
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.next_page{
+    padding-left: 900px;
+    text-decoration: none;
+}
+::placeholder {
+    color: #F9D342;
+    opacity: 1; 
+}
+
+hr{
+    background-color: #F9D342;
+    height: 10px;
+    width: 75%;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 2px;
+}

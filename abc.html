@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>STORY</title>
+    <script type="text/javascript">
+        function search() {
+            document.getElementById("res").innerHTML = "";
+            const temp = document.getElementById("text").value;
+            const a = temp.split(" ");
+            const ch = document.getElementById("char").value;
+            var count = 0, k = 0;
+            var res = new Array();
+            for (var i = 0; i < a.length; i++) {
+                for (var j = 0; j < a[i].length; j++) {
+                    if (a[i][j] == ch) {
+                        res[k++] = a[i];
+                        break;
+                    }
+                }
+            }
+            for (var i = 0; i < a.length; i++) {
+                for (var j = 0; j < a[i].length; j++) {
+                    if (a[i][j] == ch) {
+                        count += 1;
+                    }
+                }
+            }
+            document.getElementById("count").innerHTML = count;
+            for (var i = 0; i < res.length; i++) {
+                document.getElementById("res").innerHTML += res[i] + "<br>";
+            };
+        }
+    </script>
+</head>
+
+<body style="background-color: #BFACE0;">
+    <center>
+        <textarea id="text" rows="8" cols="50"></textarea><br><br>
+        <textarea id="char"></textarea><br><br>
+        <button onclick="search()">Search</button>
+        <p id="count"></p>
+        <p id="res"></p>
+    </center>
+</body>
+
+</html>
